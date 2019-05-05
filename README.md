@@ -1,6 +1,6 @@
 # mtegarsp.github.io
 
-> a simple wep portofolio project
+> a simple web portofolio project
 
 ## Build Setup
 
