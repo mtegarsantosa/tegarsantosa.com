@@ -1,6 +1,6 @@
 {
-  "name": "client",
-  "short_name": "client",
+  "name": "Arsan Dev Portfolio",
+  "short_name": "ArsanDev",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
