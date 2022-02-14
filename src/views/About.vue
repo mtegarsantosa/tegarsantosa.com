@@ -16,13 +16,76 @@
                 </p>
             </div>                  
         </div>
+        <div class="bd-grid about__desc">
+          <div>
+              <h2>People don't take trips, trips take people.</h2>
+              <p class="about__text">
+                
+              </p>
+          </div>
+          <ul>
+            <li v-for="(travelImage, index) in travelImages" :key="index" :style="`transform: rotate(${travelImage.rotate}deg)`">
+              <img :src="`/img/travels/${travelImage.path}`" width="200">
+              <p>Image #{{index+1}}</p>
+            </li>
+          </ul>
+        </div>
     </section>
   </div>
 </template>
 
+<style scoped>
+ul {
+  margin:0;
+  padding: 100px 0;
+  font-family: 'Homemade Apple';
+  text-align: center;
+  background-image: url('/img/wood.jpg');
+}
+
+li {
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  border:solid 12px #fff;
+  background:#fff;
+  box-shadow:0 0 2px 0px #555;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  box-shadow:0 0 15px 0px #555;
+  top:0;
+}
+
+
+li:hover {
+  top:-40px;
+}
+
+li p {
+  margin: 15px 0 0 0;
+}
+</style>
+
 <script>
 export default {
+  data() {
+    return {
+      travelImages: []
+    }
+  },
   methods: {
+    importAll(r) {
+      r.keys().forEach(key => (this.travelImages.push({ path: key })));
+      this.travelImages.map((val, index) => {
+        let oddEven = index % 2 ? "+15" : "-15"
+        this.travelImages[index].name = val['path'].split("./")[1]
+        this.travelImages[index].rotate =  Math.floor(Math.random() * parseInt(oddEven))
+      })
+      console.log(this.travelImages)
+    },
     getAge(dateString) {
       var today = new Date();
       var birthDate = new Date(dateString);
@@ -35,6 +98,7 @@ export default {
     }
   },
   mounted() {
+    this.importAll(require.context('../../public/img/travels/', true, /\.jpg$/))
   }
 }
 </script>

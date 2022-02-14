@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -298,9 +299,17 @@ img {
 }
 
 /* ===== ABOUT =====*/
+.about {
+  margin-bottom: var(--mb-4);
+}
+
 .about__container {
   row-gap: 2rem;
-  text-align: center;
+}
+
+.about__desc {
+  row-gap: 2rem;
+  margin-top: var(--mb-6);
 }
 
 .about__subtitle {
