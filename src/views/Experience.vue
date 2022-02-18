@@ -21,9 +21,9 @@
                             </div>
                             <div>{{info.description}}</div>
                             <div class="year">
-                            <span>{{months[info.monthStart]}} {{info.yearStart}}</span>
                             <span v-if="info.yearEnd || info.monthEnd">{{months[info.monthEnd]}} {{info.yearEnd}}</span>
                             <span v-else>now</span>
+                            <span>{{months[info.monthStart]}} {{info.yearStart}}</span>
                             </div>
                         </li>
                         </ul>
@@ -41,24 +41,12 @@ export default {
             months: [0, "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
             timelineData: [
                 {
-                    "company": "Projects.co.id",
-                    "role": "Software Engineer",
-                    "type": "Freelance",
-                    "description": "Projects.co.id is a web that connects freelancers with people who need services.",
-                    "monthStart": 1,
-                    "yearStart": 2016,
-                    "monthEnd": 12,
-                    "yearEnd": 2019
-                },
-                {
-                    "company": "PT. Janish Lintas Data",
-                    "role": "Fullstack Developer",
-                    "type": "Intern",
-                    "description": "This company engaged in education. Our product named Schoolmedia. We develop any school services apps such as Online Test, Social Media, School CMS, Teaching Material, etc.",
-                    "monthStart": 7,
-                    "yearStart": 2019,
-                    "monthEnd": 1,
-                    "yearEnd": 2020
+                    "company": "Itsavirus",
+                    "role": "Backend Developer",
+                    "type": "Full Time",
+                    "description": "-",
+                    "monthStart": 6,
+                    "yearStart": 2021
                 },
                 {
                     "company": "Vesperia.id",
@@ -71,13 +59,16 @@ export default {
                     "yearEnd": 2020
                 },
                 {
-                    "company": "Itsavirus",
-                    "role": "Backend Developer",
-                    "type": "Full Time",
-                    "description": "-",
-                    "monthStart": 6,
-                    "yearStart": 2021
+                    "company": "PT. Janish Lintas Data",
+                    "role": "Fullstack Developer",
+                    "type": "Intern",
+                    "description": "This company engaged in education. Our product named Schoolmedia. We develop any school services apps such as Online Test, Social Media, School CMS, Teaching Material, etc.",
+                    "monthStart": 7,
+                    "yearStart": 2019,
+                    "monthEnd": 1,
+                    "yearEnd": 2020
                 },
+                
             ]
         }
     },
