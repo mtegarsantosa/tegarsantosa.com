@@ -453,18 +453,47 @@ img {
   row-gap: 2rem;
 }
 
+.projectdetail__container {
+  text-align: center;
+}
+
+.projectdetail__file {
+  margin: var(--mb-4) 0;
+  text-align: center;
+}
+
+.projectdetail__file img {
+  border-radius: 0.8rem;
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+}
+
 .project__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow: hidden;
+  max-height: 200px;
+  position: relative;
 }
 
-.project__img img {
+.project__link {
+  padding: 20% 2rem;
+  text-align: center;
+  color: #FFF;
+  position:absolute;
+  top:0;
+  background: rgba(0,0,0,0.6);
+  bottom:0;
+  width:100%;
   transition: 1s;
 }
 
-.project__img img:hover {
-  transform: scale(1.1);
+.project__link:hover {
+  padding-top: 15%;
+}
+
+.project__link__title {
+  margin: 0;
+  width: 100%;
 }
 
 /* ===== CONTACT =====*/

@@ -6,6 +6,7 @@ import Experience from '../views/Experience.vue'
 import Skill from '../views/Skill.vue'
 import Achievement from '../views/Achievement.vue'
 import Project from '../views/Project.vue'
+import ProjectDetail from '../views/ProjectDetail.vue'
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
         path: 'project',
         name: 'project',
         component: Project,
+      },
+      {
+        path: 'project/:dir',
+        name: 'projectdetail',
+        component: ProjectDetail,
       },
     ]
   },

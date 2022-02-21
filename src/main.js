@@ -23,4 +23,5 @@ const info = {
 const app = createApp(App)
 app.config.globalProperties.info = info
 app.config.globalProperties.$axios = axios
+app.config.globalProperties.$env = process.env
 app.use(router).mount('#app')
