@@ -62,7 +62,7 @@ export default {
                     "company": "PT. Janish Lintas Data",
                     "role": "Fullstack Developer",
                     "type": "Intern",
-                    "description": "This company engaged in education. Our product named Schoolmedia. We develop any school services apps such as Online Test, Social Media, School CMS, Teaching Material, etc.",
+                    "description": "This company engages in education. Our product named Schoolmedia. We develop many school services apps such as Online Test, Social Media, School CMS, Teaching Material, etc.",
                     "monthStart": 7,
                     "yearStart": 2019,
                     "monthEnd": 1,
