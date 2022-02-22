@@ -4,7 +4,7 @@
       <section class="home bd-grid" id="home">
       <div class="home__data">
         <h1 class="home__title">Hi, 👋🧑‍💻<br>I'am <span class="home__title-color">{{info.name}}</span><br> Software Engineer</h1>
-        <p><i>who are also interested in #Music, #Traveling, #Astronomy.</i></p>
+        <p><i>who is also interested in #Music, #Traveling, #Astronomy.</i></p>
         <br/>
         <p>
           currently working on <a href="javascript:">{{info.currentWork.field}}</a> at 

@@ -15,7 +15,7 @@
                   Currently living in Island of God, Bali, Indonesia 🌊🌼.
                   <br/><br/>
                   I'm just an ordinary person who loves technology, music, writing, and traveling. 
-                  I would very excited to learn from other people in conversation, maybe kinda silent a little bit.
+                  I am very excited to learn and have a chat with other people. Even though sometimes I prefer to be a listener.
                 </p>
             </div>                  
         </div>
@@ -24,7 +24,7 @@
               <h2>Travel Log.</h2>
               <p class="about__text">
                 People don't take trips, trips take people.
-                You know, the world is full of questions. One way to answer that, is to walk miles in other shoes, see things from different prespective, and visit new places.
+                You know, the world is full of questions. One way to answer that, is to walk miles in other shoes, see things from different perspective, and visit new places.
                 I'm enjoying every journey, reaching a ton of experiences, and learning the meaning of diversity. That is why I love traveling, and there are still many blank pages in my pocket to write on 🤓.
               </p>
           </div>
