@@ -2,7 +2,7 @@
   <div>
     <section class="project section" id="project">
       <h2 class="section-title">my project.</h2>
-      <div v-if="projects.length > 0" class="project__container bd-grid">
+      <div v-if="projects.length < 0" class="project__container bd-grid">
         <div v-for="(project, index) in projects" :key="index" class="project__img">
           <div class="project__img_bg" :style="`background: url('${$env.VUE_APP_PROJECT_URL}/${project.thumbnail}'); width: 100%; height:200px; background-size: cover; background-position: center;`">
             <router-link tag="a" :to="{name: 'projectdetail', params: {dir: project.folderName.replaceAll(' ', '-')}}" class="project__link">
@@ -11,7 +11,7 @@
           </div>
         </div>
       </div>
-      <div v-else class="bd-grid">
+      <div v-else class="bd-grid lottie">
         <lottie :options="lottieLoadingOptions"/>
       </div>
     </section>
@@ -42,3 +42,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+@media screen and (max-width: 767px) {
+  .lottie {
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+}
+</style>

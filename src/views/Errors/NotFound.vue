@@ -2,7 +2,7 @@
     <div>
         <section class="section">
             <h2 class="section-title">page not found.</h2>
-            <div class="bd-grid">
+            <div class="bd-grid lottie">
                 <lottie :options="lottie404Options"/>
             </div>
         </section>
@@ -23,3 +23,10 @@ components: {
   },
 }
 </script>
+
+<style scoped>
+.lottie {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+</style>
