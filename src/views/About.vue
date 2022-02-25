@@ -89,7 +89,6 @@ export default {
         this.travelImages[index].name = val['path'].split("./")[1]
         this.travelImages[index].rotate =  Math.floor(Math.random() * parseInt(oddEven))
       })
-      console.log(this.travelImages)
     },
     getAge(dateString) {
       var today = new Date();
