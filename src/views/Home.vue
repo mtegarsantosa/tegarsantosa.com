@@ -3,7 +3,7 @@
     <div class="home">
       <section class="home bd-grid" id="home">
       <div class="home__data">
-        <h1 class="home__title">Hi, 👋🧑‍💻<br>I'am <span class="home__title-color">{{info.name}}</span><br> Software Engineer</h1>
+        <h1 class="home__title">Hi, 👋🧑‍💻<br>I'am <span class="home__title-color">{{info.name}}</span><br> {{info.role}}</h1>
         <p><i>who is also interested in #Music, #Traveling, #Astronomy.</i></p>
         <br/>
         <p>

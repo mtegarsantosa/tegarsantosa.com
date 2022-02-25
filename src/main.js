@@ -5,7 +5,8 @@ import axios from 'axios'
 
 const info = {
     name: 'Tegar Santosa',
-    email: 'arsan.personal@gmail.com',
+    role: 'Software Engineer',
+    email: 'hello@tegarsantosa.com',
     linkedin: 'https://linkedin.com/in/mtegarsantosa',
     github: 'https://github.com/mtegarsantosa',
     facebook: 'https://facebook.com/mtegarsantosa',
