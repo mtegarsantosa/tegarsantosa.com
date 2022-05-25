@@ -13,7 +13,7 @@
 
         <div class="home__button">
           <router-link :to="{name: 'about'}" class="button button-tertiary">About me</router-link>
-          <a href="/CV-Tegar-Santosa.pdf" download="/CV-Tegar-Santosa.pdf" class="button button-link"><i class='bx bxl-cloud-download'></i>Download CV</a>
+          <a href="https://www.canva.com/design/DAEe0FFkFkc/2agFIleJDZY0-F8K1WJkEQ/view" class="button button-link"><i class='bx bxl-cloud-download'></i>Download CV</a>
         </div>
       </div>
 

@@ -31,7 +31,7 @@
           <ul>
             <li v-for="(travelImage, index) in travelImages" :key="index" :style="`transform: rotate(${travelImage.rotate}deg)`">
               <img :src="`/img/travels/${travelImage.path}`" width="200">
-              <p>Image #{{index+1}}</p>
+              <p>{{travelImage.name}} #{{index+1}}</p>
             </li>
           </ul>
         </div>
@@ -86,7 +86,7 @@ export default {
       r.keys().forEach(key => (this.travelImages.push({ path: key })));
       this.travelImages.map((val, index) => {
         let oddEven = index % 2 ? "+15" : "-15"
-        this.travelImages[index].name = val['path'].split("./")[1]
+        this.travelImages[index].name = val['path'].split("./")[1].split(".jpg")[0]
         this.travelImages[index].rotate =  Math.floor(Math.random() * parseInt(oddEven))
       })
     },

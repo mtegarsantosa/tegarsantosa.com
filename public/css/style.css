@@ -455,6 +455,7 @@ img {
 
 .projectdetail__container {
   text-align: center;
+  margin: 10px 0;
 }
 
 .projectdetail__file {

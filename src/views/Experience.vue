@@ -42,7 +42,7 @@ export default {
             timelineData: [
                 {
                     "company": "Itsavirus",
-                    "role": "Backend Developer",
+                    "role": "Devops Engineer",
                     "type": "Full Time",
                     "description": "-",
                     "monthStart": 6,

@@ -155,7 +155,7 @@
               {
                 name: "Province Level",
                 lists: [{
-                  title: "4th Winner Chess Junior < 14",
+                  title: "5th Winner Chess Junior < 14",
                   location: "Bandar Lampung, Lampung",
                   date: "22 Mei 2014",
                   certificate: "v-chess-yunior-province.jpg"
@@ -217,6 +217,12 @@
           name: "Schoolmedia (PT. Janish Lintas Data)",
           certificate: "pkl",
           date: "Tanggerang Selatan, 18 Jan 2020"
+        }],
+
+        developer: [{
+          name: "Certified Kubernetes Application Developer",
+          certificate: "ckad",
+          date: "24 Apr 2022"
         }]
       }
     }

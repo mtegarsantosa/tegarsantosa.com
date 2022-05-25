@@ -6,6 +6,10 @@
                 <p>{{files.description}}</p>
             </div>
             <div class="projectdetail__container bd-grid">
+                <b>Stack:</b>
+                <div v-html="files.stack"></div>
+            </div>
+            <div class="projectdetail__container bd-grid">
                 <div class="projectdetail__file" v-for="(file, index) in files.files" :key="index">
                     <img
                         v-if="
