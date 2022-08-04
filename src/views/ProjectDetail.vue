@@ -3,11 +3,15 @@
         <section class="section" id="projectdetail">
             <h2 class="section-title">{{$route.params.dir.replaceAll("-", " ")}}.</h2>
             <div class="projectdetail__container bd-grid">
-                <p>{{files.description}}</p>
+                <p v-html="files.description"></p>
             </div>
             <div class="projectdetail__container bd-grid">
                 <b>Stack:</b>
                 <div v-html="files.stack"></div>
+            </div>
+            <div class="projectdetail__container bd-grid">
+                <b>My Involvement:</b>
+                <div v-html="files.involvement"></div>
             </div>
             <div class="projectdetail__container bd-grid">
                 <div class="projectdetail__file" v-for="(file, index) in files.files" :key="index">

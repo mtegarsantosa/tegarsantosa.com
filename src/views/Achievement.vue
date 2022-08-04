@@ -30,7 +30,26 @@
     </section>
 
     <section class="achievement section" id="achievement">
-      <h2 class="section-title">courses</h2>
+      <h2 class="section-title">devs certification.</h2>
+      <div>
+        <div class="achievement__container bd-grid">
+          <div v-for="(devs, index) in developers" :key="index" class="achievement__content">
+            <div>
+              <a :href="`/img/certificates/developer/${devs.certificate}.jpg`" target="_blank">
+                <img :src="`/img/certificates/developer/${devs.certificate}.jpg`">
+              </a>
+            </div>
+            <div class="achievement__caption">
+              <b>{{devs.name}}</b>
+              <p>{{devs.date}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievement section" id="achievement">
+      <h2 class="section-title">courses.</h2>
       <div>
         <div class="achievement__container bd-grid">
           <div v-for="(course, index) in courses" :key="index" class="achievement__content">
@@ -219,10 +238,15 @@
           date: "Tanggerang Selatan, 18 Jan 2020"
         }],
 
-        developer: [{
+        developers: [{
           name: "Certified Kubernetes Application Developer",
           certificate: "ckad",
           date: "24 Apr 2022"
+        },
+        {
+          name: "Certified Kubernetes Administrator",
+          certificate: "cka",
+          date: "25 Jul 2022"
         }]
       }
     }
