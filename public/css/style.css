@@ -719,8 +719,11 @@ img {
     margin: 0;
   }
 
-  .section {
+  .section:first-child {
     padding-top: 5rem;
+  }
+
+  .section {
     padding-bottom: 3rem;
   }
 

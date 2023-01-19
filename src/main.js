@@ -9,6 +9,7 @@ const info = {
     email: 'hello@tegarsantosa.com',
     linkedin: 'https://linkedin.com/in/mtegarsantosa',
     github: 'https://github.com/mtegarsantosa',
+    spotify: 'https://open.spotify.com/user/31lpymooffywngbnxyyfa2flzqmm?si=b22a0a03c20446b6',
     facebook: 'https://facebook.com/mtegarsantosa',
     instagram: 'https://instagram.com/mtegarsantosa',
     phone: '+6281379947983',

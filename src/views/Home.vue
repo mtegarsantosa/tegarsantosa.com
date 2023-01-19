@@ -21,6 +21,7 @@
         <a target="_blank" :href="`mailto:${info.email}`" class="home__social-icon"><i class='fa fa-envelope'></i></a>
         <a target="_blank" :href="`${info.linkedin}`" class="home__social-icon"><i class='fab fa-linkedin'></i></a>
         <a target="_blank" :href="`${info.github}`" class="home__social-icon"><i class='fab fa-github'></i></a>
+        <a target="_blank" :href="`${info.spotify}`" class="home__social-icon"><i class='fab fa-spotify'></i></a>
       </div>
 
       <div class="home__img">
@@ -110,7 +111,7 @@
       async getBloggerPosts() {
         let response = await this.$axios.get('https://www.googleapis.com/blogger/v3/blogs/185798562776123304/posts', {
           params: {
-            key: 'AIzaSyCfOAU8-ilDdx6rp9dziIMJLoOTgS3s_Qc',
+            key: 'AIzaSyDcL6QoxY-tCAIdk0Lc5Pr2NJ1iwJUJazA',
             fetchBodies: false,
             fetchImages: true,
             maxResults: 4
