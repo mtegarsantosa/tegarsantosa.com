@@ -2,6 +2,23 @@
   <div>
     <section class="achievement section" id="achievement">
       <h2 class="section-title">achievements.</h2>
+      <div>
+        <div class="achievement__container bd-grid">
+          <div v-for="(devs, index) in developers" :key="index" class="achievement__content">
+            <div>
+              <a :href="`/img/certificates/developer/${devs.certificate}.jpg`" target="_blank">
+                <img :src="`/img/certificates/developer/${devs.certificate}.jpg`">
+              </a>
+            </div>
+            <div class="achievement__caption">
+              <b>{{devs.name}}</b>
+              <p>{{devs.date}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="achievement section" id="achievement">
       <div v-for="(acheivement, index) in achievements" :key="index">
         <div class="bd-grid">
           <h1>{{acheivement.name}}</h1>
@@ -67,25 +84,6 @@
             <div class="achievement__caption">
               <b>{{intern.name}}</b>
               <p>{{intern.date}}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="achievement section" id="achievement">
-      <h2 class="section-title">devs certification.</h2>
-      <div>
-        <div class="achievement__container bd-grid">
-          <div v-for="(devs, index) in developers" :key="index" class="achievement__content">
-            <div>
-              <a :href="`/img/certificates/developer/${devs.certificate}.jpg`" target="_blank">
-                <img :src="`/img/certificates/developer/${devs.certificate}.jpg`">
-              </a>
-            </div>
-            <div class="achievement__caption">
-              <b>{{devs.name}}</b>
-              <p>{{devs.date}}</p>
             </div>
           </div>
         </div>

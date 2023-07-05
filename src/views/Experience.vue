@@ -41,12 +41,22 @@ export default {
             months: [0, "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
             timelineData: [
                 {
-                    "company": "Itsavirus",
+                    "company": "PASS3",
                     "role": "Devops Engineer",
                     "type": "Full Time",
                     "description": "-",
+                    "monthStart": 4,
+                    "yearStart": 2023
+                },
+                {
+                    "company": "Itsavirus",
+                    "role": "Devops Engineer",
+                    "type": "Full Time",
+                    "description": "A software company based in Amsterdam, Bali, and Singapore that develops innovative smart city solutions.",
                     "monthStart": 6,
-                    "yearStart": 2021
+                    "yearStart": 2021,
+                    "monthEnd": 4,
+                    "yearEnd": 2023
                 },
                 {
                     "company": "Vesperia.id",

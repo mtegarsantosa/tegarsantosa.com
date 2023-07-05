@@ -29,9 +29,18 @@
           emoji: '☁️',
           lists: [
           {
+            name: 'Amazon Web Service',
+            icon: 'fab fa-aws'
+          },
+          {
             name: 'Google Cloud',
             icon: 'fab fa-google'
-          },
+          }]
+        },
+        {
+          title: 'Infrastructure Management',
+          emoji: '⚙️',
+          lists: [
           {
             name: 'Docker',
             icon: 'fab fa-docker'
@@ -43,6 +52,48 @@
           {
             name: 'Terraform',
             icon: 'fa fa-cubes'
+          },
+          {
+            name: 'Ansible',
+            icon: 'fa fa-at'
+          },
+          {
+            name: 'Helm Chart',
+            icon: 'fab fa-hire-a-helper'
+          }]
+        },
+        {
+          title: 'CI/CD',
+          emoji: '🚀',
+          lists: [
+          {
+            name: 'Gitlab CI',
+            icon: 'fab fa-gitlab'
+          },
+          {
+            name: 'Github Action',
+            icon: 'fab fa-github'
+          },
+          {
+            name: 'Google Cloud Build',
+            icon: 'fab fa-google'
+          }]
+        },
+        {
+          title: 'Monitoring & Data Analytic',
+          emoji: '📊',
+          lists: [
+          {
+            name: 'Datadog',
+            icon: 'fas fa-dog'
+          },
+          {
+            name: 'Amazon Cloudwatch',
+            icon: 'fab fa-amazon'
+          },
+          {
+            name: 'Elastic Search & Kibana',
+            icon: 'fas fa-search'
           }]
         },
         {
@@ -79,6 +130,10 @@
           {
             name: 'PHP',
             icon: 'fab fa-php'
+          },
+          {
+            name: 'Bash',
+            icon: 'fas fa-terminal'
           }]
         },
         {

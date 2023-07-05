@@ -14,10 +14,10 @@ const info = {
     instagram: 'https://instagram.com/mtegarsantosa',
     phone: '+6281379947983',
     currentWork: {
-        field: '🧊 Blockchain Technology',
+        field: '🎯 Ad Networking',
         at: {
-            name: '🏝️ Itsavirus',
-            link: 'https://itsavirus.com'
+            name: 'PASS3',
+            link: 'https://pass3.id'
         }
     }
 }

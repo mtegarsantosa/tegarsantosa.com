@@ -72,7 +72,7 @@
           <div class="blog__link">
             <div class="blog__platform">
               <h2>Medium</h2>
-              <b>Personal Blockchain Writings</b>
+              <b>Personal DevOps Writings</b>
             </div>
             <ul>
               <li>
