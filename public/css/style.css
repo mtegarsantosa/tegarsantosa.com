@@ -339,34 +339,6 @@ img {
 
 .blog__title {
   font-size: var(--h2-font-size);
-  text-align: center;
-}
-
-.blog__platform {
-  margin: var(--mb-2) 0;
-  padding-bottom: 0.8rem;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
-}
-
-.blog__link ul li {
-  padding: 0.7rem 0 0.7rem 0.7rem;
-}
-
-.blog__link {
-  margin: 0 1.3rem;
-}
-
-.blog__link a {
-  color: #FFF;
-}
-
-.blog__link ul li {
-  font-size: 1.1rem;
-  display: block;
-}
-
-.blog__link a:hover {
-  background: rgba(0, 0, 0, 0.15);
 }
 
 /* ===== achievement =====*/

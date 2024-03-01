@@ -1,13 +1,13 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Layout from '../views/Layouts/Layout.vue'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-import Experience from '../views/Experience.vue'
-import Skill from '../views/Skill.vue'
-import Achievement from '../views/Achievement.vue'
-import Project from '../views/Project.vue'
-import ProjectDetail from '../views/ProjectDetail.vue'
-import NotFound from '../views/Errors/NotFound.vue'
+import Layout from '../views/Layouts/LayoutPage.vue'
+import Home from '../views/HomePage.vue'
+import About from '../views/AboutPage.vue'
+import Experience from '../views/ExperiencePage.vue'
+import Skill from '../views/SkillPage.vue'
+import Achievement from '../views/AchievementPage.vue'
+import Project from '../views/ProjectPage.vue'
+import ProjectDetail from '../views/ProjectDetailPage.vue'
+import NotFound from '../views/Errors/NotFoundPage.vue'
 
 const routes = [
   {

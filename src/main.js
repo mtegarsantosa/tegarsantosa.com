@@ -14,10 +14,10 @@ const info = {
     instagram: 'https://instagram.com/mtegarsantosa',
     phone: '+6281379947983',
     currentWork: {
-        field: '🎯 Ad Networking',
+        field: '⛓️ Blockchain',
         at: {
-            name: 'PASS3',
-            link: 'https://pass3.id'
+            name: 'Open Food Chain',
+            link: 'https://openfoodchain.com/'
         }
     }
 }
