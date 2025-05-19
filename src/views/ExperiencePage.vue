@@ -42,17 +42,27 @@ export default {
             timelineData: [
             {
                     "company": "OpenFoodChain.com",
-                    "role": "Devops Engineer",
+                    "role": "Lead Infra Engineer",
                     "type": "Full Time",
-                    "description": "Open Food Chain is a proven and affordable infrastructure for entire agrifood supply chains to report and manage ESG claims.",
+                    "description": "Open Food Chain is a proven and affordable decentralize infrastructure for entire agrifood supply chains to report and manage ESG claims.",
                     "monthStart": 7,
                     "yearStart": 2023,
                 },
                 {
-                    "company": "PASS3.id",
+                    "company": "Marlin SCX",
+                    "role": "Cloud Architect - Part Time",
+                    "type": "Full Time",
+                    "description": "Marlin-SCX is a data marketplace that enables data sharing in a decentralized federated network, allowing authorized parties to dynamically access data in real-time.",
+                    "monthStart": 1,
+                    "yearStart": 2023,
+                    "monthEnd": 1,
+                    "yearEnd": 2024
+                },
+                {
+                    "company": "EVOS Esport",
                     "role": "Devops Engineer",
                     "type": "Full Time",
-                    "description": "PASS3 is an adnetwork company that offers a value exchange system for advertisers, publishers, and also users. We bring in-game rewarded ads solution - out-of-app, which allows advertisers to reward verified users who engage with their ads across multiple publisher sites. This approach ensures that advertisers can acquire high-quality users who are genuinely interested in their products or services.",
+                    "description": "Distributed to an ad network service: Play3 by EVOSVERSE, that offers a value exchange system for advertisers, publishers, and also users.",
                     "monthStart": 4,
                     "yearStart": 2023,
                     "monthEnd": 7,

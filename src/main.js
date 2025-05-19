@@ -5,7 +5,7 @@ import axios from 'axios'
 
 const info = {
     name: 'Tegar Santosa',
-    role: 'Devops Engineer',
+    role: 'Lead Infra Engineer',
     email: 'hello@tegarsantosa.com',
     linkedin: 'https://linkedin.com/in/mtegarsantosa',
     github: 'https://github.com/mtegarsantosa',
@@ -14,7 +14,7 @@ const info = {
     instagram: 'https://instagram.com/mtegarsantosa',
     phone: '+6281379947983',
     currentWork: {
-        field: '⛓️ Blockchain',
+        field: '⛓️ Blockchain, Web3',
         at: {
             name: 'Open Food Chain',
             link: 'https://openfoodchain.com/'

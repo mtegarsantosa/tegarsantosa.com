@@ -9,7 +9,7 @@
             </div>
             
             <div>
-                <h2 class="about__subtitle">Oh, hello again! <br/> I'am {{info.name}}</h2>
+                <h2 class="about__subtitle">Oh, hello again! <br/>I am {{info.name}}</h2>
                 <p class="about__text">
                   Born and grew as a homosapiens in Lampung ⛰️, part of Indonesia 🇮🇩, {{getAge('2002-04-01')}} years ago. 
                   Currently on my nomadic era, based around South East Asia 🌊🌼.
