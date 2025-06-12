@@ -97,10 +97,10 @@
           }]
         },
         {
-          title: 'Blockchain',
+          title: 'Web3',
           emoji: '💽',
           lists: [{
-            name: 'Komodo',
+            name: 'Blockchain',
             icon: 'fa fa-cubes'
           },
           {
@@ -108,11 +108,11 @@
             icon: 'fab fa-ethereum'
           },
           {
-            name: 'NFT',
-            icon: 'fa fa-photo-video'
+            name: 'Hashgraph',
+            icon: 'fa fa-hashtag'
           },
           {
-            name: 'Cryptocurrency',
+            name: 'Bitcoin',
             icon: 'fab fa-btc'
           }]
         },

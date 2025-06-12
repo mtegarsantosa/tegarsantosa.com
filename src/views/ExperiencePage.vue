@@ -50,8 +50,8 @@ export default {
                 },
                 {
                     "company": "Marlin SCX",
-                    "role": "Cloud Architect - Part Time",
-                    "type": "Full Time",
+                    "role": "Cloud Architect",
+                    "type": "Part Time",
                     "description": "Marlin-SCX is a data marketplace that enables data sharing in a decentralized federated network, allowing authorized parties to dynamically access data in real-time.",
                     "monthStart": 1,
                     "yearStart": 2023,

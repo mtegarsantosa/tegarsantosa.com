@@ -4,7 +4,7 @@
       <section class="home bd-grid" id="home">
       <div class="home__data">
         <h1 class="home__title">Hi, 👋🧑‍💻<br>I am <span class="home__title-color">{{info.name}}</span><br> {{info.role}}</h1>
-        <p><i>who is also interested in #Music, #Traveling, #Astronomy.</i></p>
+        <p><i>who is also interested in <a target="_blank" href="https://open.spotify.com/user/31lpymooffywngbnxyyfa2flzqmm?si=b22a0a03c20446b6">#Music</a> and <a target="_blank" href="https://blog.tegarsantosa.com/tags/traveling">#Traveling</a></i></p>
         <br/>
         <p>
           currently working on <a href="javascript:">{{info.currentWork.field}}</a> at 

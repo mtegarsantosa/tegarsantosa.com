@@ -11,8 +11,17 @@
             <div>
                 <h2 class="about__subtitle">Oh, hello again! <br/>I am {{info.name}}</h2>
                 <p class="about__text">
-                  Born and grew as a homosapiens in Lampung ⛰️, part of Indonesia 🇮🇩, {{getAge('2002-04-01')}} years ago. 
+                  Born and grew as a homosapiens in Indonesia, {{getAge('2002-04-01')}} years ago. 
                   Currently on my nomadic era, based around South East Asia 🌊🌼.
+                </p>
+                <br/>
+                <p class="about__text">
+                  {{getAge('2019')}}+ years professionally in tech, working in various roles from software engineering, product development, to technical writing.
+                  Passionate about building impactful digital products especially web3 and decentralized app, and sharing knowledge with the community.
+                </p>
+                <br/>
+                <p class="about__text">
+                  I am an active student at <a href="https://president.ac.id/" target="_blank">President University</a>, Indonesia, also a <a href="https://draperuniversity.com/" target="_blank">Draper University</a> alumni in Silicon Valley, USA.
                 </p>
             </div>                  
         </div>
@@ -20,6 +29,7 @@
           <div>
               <h2>Travel Log.</h2>
               <p class="about__text">
+                  A log of my journey traveling the world. I have been to: 🇮🇩🇯🇵🇳🇱🇸🇬🇫🇷🇮🇳🇺🇸🇻🇳🇱🇦🇹🇭🇧🇪🇪🇸🇲🇾, 20000 km of non-stop riding around 4 islands in Indonesia, and 13 mountain climbs.
               </p>
           </div>
           <ul>
