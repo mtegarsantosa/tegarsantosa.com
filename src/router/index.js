@@ -5,8 +5,8 @@ import About from '../views/AboutPage.vue'
 import Experience from '../views/ExperiencePage.vue'
 import Skill from '../views/SkillPage.vue'
 import Achievement from '../views/AchievementPage.vue'
-import Project from '../views/ProjectPage.vue'
-import ProjectDetail from '../views/ProjectDetailPage.vue'
+// import Project from '../views/ProjectPage.vue'
+// import ProjectDetail from '../views/ProjectDetailPage.vue'
 import NotFound from '../views/Errors/NotFoundPage.vue'
 
 const routes = [
@@ -41,16 +41,16 @@ const routes = [
         name: 'achievement',
         component: Achievement,
       },
-      {
-        path: 'project',
-        name: 'project',
-        component: Project,
-      },
-      {
-        path: 'project/:dir',
-        name: 'projectdetail',
-        component: ProjectDetail,
-      },
+      // {
+      //   path: 'project',
+      //   name: 'project',
+      //   component: Project,
+      // },
+      // {
+      //   path: 'project/:dir',
+      //   name: 'projectdetail',
+      //   component: ProjectDetail,
+      // },
     ]
   },
 ]

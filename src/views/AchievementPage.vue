@@ -7,7 +7,7 @@
           <div v-for="(devs, index) in developers" :key="index" class="achievement__content">
             <div>
               <a :href="`/img/certificates/developer/${devs.certificate}.jpg`" target="_blank">
-                <img :src="`/img/certificates/developer/${devs.certificate}.jpg`">
+                <img v-lazy="`/img/certificates/developer/${devs.certificate}.jpg`" class="lazy-image" alt="Developer Certificate">
               </a>
             </div>
             <div class="achievement__caption">
@@ -29,7 +29,7 @@
             <ul>
               <li v-for="(list, index) in level.lists" :key="index">
                   <a v-if="list.certificate" target="_blank" :href="`/img/certificates/${list.certificate}`">
-                    <img :src="`/img/certificates/${list.certificate}`">
+                    <img v-lazy="`/img/certificates/${list.certificate}`" class="lazy-image" alt="Achievement Certificate">
                   </a>
                   <div class="achievement__caption" v-else>
                     [certificate not available]
@@ -53,11 +53,12 @@
           <div v-for="(course, index) in courses" :key="index" class="achievement__content">
             <div>
               <a :href="`/img/certificates/course/${course.certificate}.jpg`" target="_blank">
-                <img :src="`/img/certificates/course/${course.certificate}.jpg`">
+                <img v-lazy="`/img/certificates/course/${course.certificate}.jpg`" class="lazy-image" alt="Course Certificate">
               </a>
               <a :href="`/img/certificates/course/${course.certificate}-2.jpg`" target="_blank">
-                <img :src="`/img/certificates/course/${course.certificate}-2.jpg`">
+                <img v-lazy="`/img/certificates/course/${course.certificate}-2.jpg`" class="lazy-image" alt="Course Certificate">
               </a>
+
             </div>
             <div class="achievement__caption">
               <b>{{course.name}}</b>
@@ -75,10 +76,10 @@
           <div v-for="(intern, index) in work_internship" :key="index" class="achievement__content">
             <div>
               <a :href="`/img/certificates/work_internship/${intern.certificate}.jpg`" target="_blank">
-                <img :src="`/img/certificates/work_internship/${intern.certificate}.jpg`">
+                <img v-lazy="`/img/certificates/work_internship/${intern.certificate}.jpg`" class="lazy-image" alt="Internship Certificate">
               </a>
               <a :href="`/img/certificates/work_internship/${intern.certificate}-2.jpg`" target="_blank">
-                <img :src="`/img/certificates/work_internship/${intern.certificate}-2.jpg`">
+                <img v-lazy="`/img/certificates/work_internship/${intern.certificate}-2.jpg`" class="lazy-image" alt="Internship Certificate">
               </a>
             </div>
             <div class="achievement__caption">
@@ -91,8 +92,47 @@
     </section>
   </div>
 </template>
+<style scoped>
+.lazy-image {
+  opacity: 0;
+  transform: scale(0.95);
+  filter: blur(10px);
+  transition: opacity 0.8s ease, transform 0.8s ease, filter 0.8s ease;
+}
+.lazy-image[data-loaded="true"] {
+  opacity: 1;
+  transform: scale(1);
+  filter: blur(0);
+}
+</style>
 <script>
   export default {
+    directives: {
+      lazy: {
+        mounted(el, binding) {
+          el.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZWVlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==';
+
+          const loadImage = () => {
+            const img = new Image();
+            img.src = binding.value;
+            img.onload = () => {
+              el.src = binding.value;
+              el.dataset.loaded = "true";
+            };
+          };
+
+          const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                loadImage();
+                observer.unobserve(el);
+              }
+            });
+          });
+          observer.observe(el);
+        }
+      }
+    },
     data() {
       return {
         achievements: [{

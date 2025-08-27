@@ -38,7 +38,7 @@
                 <a target="_blank" :href="info.instagram" class="footer__icon"><i class='fab fa-instagram' ></i></a>
                 <a  target="_blank" :href="`tel:${info.phone}`" class="footer__icon"><i class='fa fa-phone' ></i></a>
             </div>
-            <p class="footer__copy">&#169; {{new Date().getFullYear()}} - Made with ❤️ and 🎧️</p>
+            <p class="footer__copy">&#169; 2019 - {{new Date().getFullYear()}}. Made with ❤️ and 🎧️</p>
         </footer>
     </div>
 </template>
