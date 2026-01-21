@@ -56,6 +56,8 @@ export default {
                     "description": "Open Food Chain is a proven and affordable decentralize infrastructure for entire agrifood supply chains to report and manage ESG claims.",
                     "monthStart": 7,
                     "yearStart": 2023,
+                    "monthEnd": 9,
+                    "yearEnd": 2025
                 },
                 {
                     "company": "Marlin SCX",

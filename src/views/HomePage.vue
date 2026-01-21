@@ -7,8 +7,15 @@
         <p><i>who is also interested in <a target="_blank" href="https://open.spotify.com/user/31lpymooffywngbnxyyfa2flzqmm?si=b22a0a03c20446b6">#Music</a> and <a target="_blank" href="https://blog.tegarsantosa.com/tags/traveling">#Traveling</a></i></p>
         <br/>
         <p>
-          currently working on <a href="javascript:">{{info.currentWork.field}}</a> at 
-          <a target="_blank" :href="info.currentWork.at.link">{{info.currentWork.at.name}}</a>.
+          currently working on <a href="javascript:">{{info.currentWork.field}}</a> 
+          
+          <span v-if="info.currentWork.at.name">
+            at 
+            <a target="_blank" :href="info.currentWork.at.link">{{info.currentWork.at.name}}</a>.
+          </span>
+          <span v-else>
+            in contract basis.
+          </span>
         </p>
 
         <div class="home__button">
