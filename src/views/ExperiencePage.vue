@@ -50,7 +50,7 @@ export default {
             timelineData: [
                 {
                     "company": "OpenFoodChain.com",
-                    "role": "Lead Infra Engineer",
+                    "role": "Software & Infrastructure Engineer",
                     "type": "Full Time",
                     "location": "Amsterdam, Netherlands",
                     "description": "Open Food Chain is a proven and affordable decentralize infrastructure for entire agrifood supply chains to report and manage ESG claims.",
