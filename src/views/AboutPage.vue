@@ -27,9 +27,9 @@
       </div>
 
       <div class="bd-grid about__desc">
-        <h2>Travel Log.</h2>
+        <h2>travel log.</h2>
         <p class="about__text">
-            A log of my journey traveling the world. I have been to: 🇮🇩🇯🇵🇳🇱🇸🇬🇫🇷🇮🇳🇺🇸🇻🇳🇱🇦🇹🇭🇧🇪🇪🇸🇲🇾, 20000 km of non-stop riding around 4 islands in Indonesia, and 13 mountain climbs.
+            A log of my journey traveling the world. I have been to: 🇮🇩🇯🇵🇳🇱🇸🇬🇫🇷🇮🇳🇺🇸🇻🇳🇱🇦🇹🇭🇧🇪🇪🇸🇲🇾🇵🇭🇨🇳, 20000 km of non-stop riding around 4 islands in Indonesia, and 13 mountain climbs.
         </p>
         <ul>
           <li v-for="(travelImage, index) in travelImages" :key="index" :style="`transform: rotate(${travelImage.rotate}deg)`">
