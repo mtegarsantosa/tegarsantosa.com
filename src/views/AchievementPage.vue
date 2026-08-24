@@ -299,6 +299,11 @@
         }],
 
         developers: [{
+          name: "Google Cybersecurity Professional",
+          certificate: "cybersecurity",
+          date: "15 June 2026"
+        },
+        {
           name: "Certified Kubernetes Application Developer",
           certificate: "ckad",
           date: "24 Apr 2022"

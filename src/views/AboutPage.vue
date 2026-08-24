@@ -21,7 +21,8 @@
             </p>
             <br/>
             <p class="about__text">
-              I am an active student at <a href="https://president.ac.id/" target="_blank">President University</a>, Indonesia, also a <a href="https://draperuniversity.com/" target="_blank">Draper University</a> alumni in Silicon Valley, USA.
+              I am an active student at <a href="https://president.ac.id/" target="_blank">President University</a>, Indonesia (2027). I am a <a href="https://draperuniversity.com/" target="_blank">Draper University</a> alumni in Silicon Valley, USA (2025).
+              Currently doing research work at <a href="https://www.ntu.edu.tw/english/" target="_blank">National Taiwan University</a> (2026).
             </p>
         </div>    
       </div>

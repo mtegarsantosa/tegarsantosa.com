@@ -49,6 +49,24 @@ export default {
             months: [0, "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
             timelineData: [
                 {
+                    "company": "National Taiwan University",
+                    "role": "Researcher Assistant",
+                    "type": "Internship",
+                    "location": "Taipei, Taiwan",
+                    "description": "National Taiwan University (NTU) is the top-ranked and most prestigious comprehensive public university in Taiwan.",
+                    "monthStart": 9,
+                    "yearStart": 2026,
+                },
+                {
+                    "company": "Cleq Cloud Consulting",
+                    "role": "Software & Infrastructure Engineer",
+                    "type": "Contract",
+                    "location": "Tallinn, Harjumaa, Estonia",
+                    "description": "Cleq.io helps growth-focused companies design, migrate, and automate cloud systems that scale with your business.",
+                    "monthStart": 9,
+                    "yearStart": 2025,
+                },
+                {
                     "company": "OpenFoodChain.com",
                     "role": "Software & Infrastructure Engineer",
                     "type": "Full Time",
@@ -62,7 +80,7 @@ export default {
                 {
                     "company": "Marlin SCX",
                     "role": "Cloud Architect",
-                    "type": "Part Time",
+                    "type": "Contract",
                     "location": "Rotterdam, Netherlands",
                     "description": "Marlin-SCX is a data marketplace that enables data sharing in a decentralized federated network, allowing authorized parties to dynamically access data in real-time.",
                     "monthStart": 1,

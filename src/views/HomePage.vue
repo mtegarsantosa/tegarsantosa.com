@@ -17,6 +17,11 @@
             in contract basis.
           </span>
         </p>
+        <p>
+          <span>
+            doing research work at <a target="_blank" href="https://www.ntu.edu.tw/english/">National Taiwan University (NTU)</a>.
+          </span>
+        </p>
 
         <div class="home__button">
           <router-link :to="{name: 'about'}" class="button button-tertiary">About me</router-link>

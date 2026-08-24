@@ -6,12 +6,12 @@ import axios from 'axios'
 const info = {
     name: 'Tegar Santosa',
     role: 'Software Engineer',
-    email: 'hello@tegarsantosa.com',
+    email: 'iam@tegarsantosa.com',
     linkedin: 'https://linkedin.com/in/tegarsantosa',
     github: 'https://github.com/tegarsantosa',
     spotify: 'https://open.spotify.com/user/31lpymooffywngbnxyyfa2flzqmm?si=b22a0a03c20446b6',
     facebook: 'https://facebook.com/mtegarsantosa',
-    instagram: 'https://instagram.com/mtegarsantosa',
+    instagram: 'https://instagram.com/tegarsantosa_',
     phone: '+6281379947983',
     currentWork: {
         field: 'Software & Cloud',
